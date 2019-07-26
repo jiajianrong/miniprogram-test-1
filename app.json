@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/webview/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar_bk": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/webview/index",
+        "text": "网页"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+
+  "permission": {
+    "scope.userLocation": {
+      "desc": "给产品经理demo微信小程序的功能"
+    }
+  },
+
+
+  "networkTimeout": {
+    "request": 6000
+  }
+}

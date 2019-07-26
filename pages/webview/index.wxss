@@ -1,0 +1,12 @@
+/**index.wxss**/
+Page {
+  text-align: center;
+}
+
+.title {
+  color: red;
+}
+
+.map, .image {
+  width: 100%;
+}
